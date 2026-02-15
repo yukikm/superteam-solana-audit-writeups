@@ -72,4 +72,6 @@ pnpm -s build-and-test
 Expected: PASS.
 
 ## Notes
+- PR #533 currently contains **only the escrow-native changes** (3 files under `tokens/escrow/native/...`).
+  - If you see an automated PR summary mentioning `basics/transfer-sol/...`, that was from an earlier iteration and is now stale; the current PR head is `yukikm:fix/escrow-native-rent-refund`.
 - The fix is proposed upstream as PR #533 (link above) and is also available as a public fork commit + git-format patch for easy review.
