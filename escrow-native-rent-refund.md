@@ -6,7 +6,9 @@ Component:
 - `tokens/escrow/native/program`
 - instruction handler: `TakeOffer::process`
 
-Fix (fork): https://github.com/yukikm/program-examples/commit/7ae7235
+Upstream PR: https://github.com/solana-developers/program-examples/pull/533
+
+Fix (fork commit): https://github.com/yukikm/program-examples/commit/7ae7235
 
 Patch (git format-patch): https://raw.githubusercontent.com/yukikm/program-examples/7ae7235b07e9e1128c5343a4a4a5dfe8b4b7b0d8/patches/7ae7235-escrow-native-fix.patch
 
@@ -70,4 +72,4 @@ pnpm -s build-and-test
 Expected: PASS.
 
 ## Notes
-- I did not open an upstream PR from this environment (no interactive GitHub auth), but the fix is in a public fork and provided as a patch.
+- The fix is proposed upstream as PR #533 (link above) and is also available as a public fork commit + git-format patch for easy review.
