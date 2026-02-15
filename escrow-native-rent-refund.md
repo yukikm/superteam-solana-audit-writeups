@@ -78,7 +78,8 @@ On this host (2026-02-15), with `rustc 1.93.1` / `cargo 1.93.1`, the test run pa
 # fail 0
 ```
 
-(Full local log archived at: `superteam/_local_test_run_escrow_native_2026-02-15.txt`)
+Full test output (captured locally) is published here:
+- https://raw.githubusercontent.com/yukikm/superteam-solana-audit-writeups/main/logs/escrow-native-rent-refund_2026-02-15.txt
 
 ## Notes
 - PR #533 currently contains **only the escrow-native changes** (3 files under `tokens/escrow/native/...`).
