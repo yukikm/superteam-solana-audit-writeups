@@ -8,9 +8,9 @@ Component:
 
 Upstream PR: https://github.com/solana-developers/program-examples/pull/533
 
-Fix (fork commit): https://github.com/yukikm/program-examples/commit/7ae7235
+Fix (fork commit): https://github.com/yukikm/program-examples/commit/0e0cf8b
 
-Patch (git format-patch): https://raw.githubusercontent.com/yukikm/program-examples/7ae7235b07e9e1128c5343a4a4a5dfe8b4b7b0d8/patches/7ae7235-escrow-native-fix.patch
+Patch (GitHub PR .patch): https://github.com/solana-developers/program-examples/pull/533.patch
 
 ## Summary
 While auditing the **native escrow** example, I found two issues in `take_offer`:
